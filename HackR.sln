@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51D93A0E-6177-4186-B61C-D546BCCA7B43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{80EB2623-DB72-4B7A-8F08-ED865C68C7E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{57BD433A-3CFA-45E6-8DAB-FA7145C18EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackR.Server", "HackR.Server\HackR.Server.csproj", "{E7BA8471-0618-45D7-9396-572C6A207FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackR.Clients.Console", "HackR.Clients.Console\HackR.Clients.Console.csproj", "{B6E0600F-8748-452A-AAC8-C7936EC02B31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7BA8471-0618-45D7-9396-572C6A207FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BA8471-0618-45D7-9396-572C6A207FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BA8471-0618-45D7-9396-572C6A207FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BA8471-0618-45D7-9396-572C6A207FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E0600F-8748-452A-AAC8-C7936EC02B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E0600F-8748-452A-AAC8-C7936EC02B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E0600F-8748-452A-AAC8-C7936EC02B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E0600F-8748-452A-AAC8-C7936EC02B31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80EB2623-DB72-4B7A-8F08-ED865C68C7E8} = {51D93A0E-6177-4186-B61C-D546BCCA7B43}
+		{57BD433A-3CFA-45E6-8DAB-FA7145C18EB5} = {51D93A0E-6177-4186-B61C-D546BCCA7B43}
+		{E7BA8471-0618-45D7-9396-572C6A207FEC} = {80EB2623-DB72-4B7A-8F08-ED865C68C7E8}
+		{B6E0600F-8748-452A-AAC8-C7936EC02B31} = {57BD433A-3CFA-45E6-8DAB-FA7145C18EB5}
+	EndGlobalSection
+EndGlobal
