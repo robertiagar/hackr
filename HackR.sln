@@ -1,5 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51D93A0E-6177-4186-B61C-D546BCCA7B43}"
 EndProject
@@ -7,7 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{80EB26
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{57BD433A-3CFA-45E6-8DAB-FA7145C18EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackR.Server", "HackR.Server\HackR.Server.csproj", "{E7BA8471-0618-45D7-9396-572C6A207FEC}"
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackR.Clients.Console", "HackR.Clients.Console\HackR.Clients.Console.csproj", "{B6E0600F-8748-452A-AAC8-C7936EC02B31}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B29A59F9-50B9-4159-AB2F-80C8302402DB}"
